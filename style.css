@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+width: 50%;
+
+display: flex;
+align-items: center;
+}
+.background{
+
+    background: rgba(0, 0,0, 0.7)url(galaxy-soho-1989816_1920.jpg);
+background-size: cover;
+background-blend-mode: darken;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    height: 73px;
+    border-radius: 20px;
+    /* margin-right: 590px; */
+    border: 1px solid red;
+}
+.nav-list li{
+    list-style: none;
+    padding: 12px 23px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 244, 244);
+}
+.nav-list li a:hover{
+background-color: blanchedalmond;
+    color: rgb(209, 62, 62);
+}
+.rightnav{
+    width: 50%;
+
+    text-align: right;
+}
+.secondhalf img{
+    height: 184px;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    height: 75%;
+
+}
+.para{
+    padding: 27px;
+}
+.firstbg{
+    height: 37vh;
+}
+.firsthalf{
+    width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+color: seashell;
+
+}
+.secondhalf{
+    width: 30%;
+    color: seashell;
+}
+.textsmall{
+font-size: 18px;
+}
+.textbig{
+font-size: 22px;
+}
+.btn{
+    cursor: pointer;
+    background:none;
+    color: rgb(235, 217, 217);
+}
+.thumbnail img{
+    height: 175px;
+}
+.secright{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 75%;
+    margin: auto;
+  
+}
+.secleft{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 75%;
+    margin: auto;
+    flex-direction: row-reverse;
+  
+}
+.contact{
+    background-color: #f1f1f1;
+    height: 35vh;
+}
+.textcenter{
+    text-align: center;
+}
+.form{
+    max-width: 288px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+font-size: 15px;
+border: 2px solid rgb(0, 0, 0);   
+border-radius: 10px; 
+margin: 12px;
+
+}
+.contact .btn{
+    color: rgb(0, 0, 0);
+    margin: 0px 15px;
+    border-radius: 5px;
+
+}
+.textfooter{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+}
+.burger{
+    position: absolute;
+    right: 4%;
+    top: 15px;
+   display: none;
+   cursor: pointer;
+
+}
+@media only screen and (max-width:1280px) {
+    .nav-list{
+        flex-direction: column;
+        
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+     
+    }
+    .boxmain{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+ 
+#search{
+    width: 100%;
+}}
+
+.line{
+    width: 23px;
+    background-color: blanchedalmond;
+    height: 4px;
+    margin: 2px;
+}
